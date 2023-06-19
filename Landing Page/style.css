@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+    padding: 0 300px;
+    background-color: rgb(38, 51, 87);
+    align-items: center;
+}
+.header {
+    color: white;
+}
+
+.headerlogo {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.headerfirst {
+     margin-left: auto;
+}

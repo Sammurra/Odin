@@ -1,0 +1,20 @@
+
+.numberodd {
+    background-color: hsl(0, 100%, 70%);
+    color: rgb(0, 0, 0);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.big {
+    font-size: 24px;
+}
+
+#number2 {
+    color: #398fff;
+    font-size: 36px;
+}
+
+#number4 {
+    background-color: #39ffad;
+    font-weight: bold;
+}

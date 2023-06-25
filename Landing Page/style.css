@@ -2,7 +2,6 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Roboto,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    height: 100vh;
     margin: 0;
     padding: 0;
 }
@@ -33,21 +32,24 @@ body {
     padding: 70px;
     justify-content: center;
     color: white;
-    gap: 80px;
+    gap: 100px;
 }
 .headings {
-  flex-basis: 700px;
+  flex-basis: 400px;
   display: flex;
   flex-direction: column;
   gap: 14px;
 }
-.header {
+.headermain {
     font-size: 30px;
     font-weight: 900;
+    width: 240px;
 }
 button {
-    background-color: rgb(0, 140, 255);
+    background-color: #008cff;
     color: white;
+    font-weight:bolder;
+    font-size: 17px;
     border: none;
     border-radius: 7px ;
     padding: 10px 40px;
@@ -55,4 +57,106 @@ button {
 
  .image {
     width: 400px;
+}
+
+.randomtext {
+    padding: 40px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.imagecontent {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 120px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 180px;
+    height: 270px;
+    gap: 10px;
+}
+
+.square {
+
+    flex-basis: 180px;
+    width: 180px;
+    border: 4px solid #008cff;
+    border-radius: 14px;
+    
+}
+
+.imagetext {
+    width: 180px;
+    flex-basis: 72px;
+    text-align: center;
+}
+
+.graycontent {
+   flex-basis: 300px;
+   background-color: lightgray;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 40px 340px;
+   gap:20px;
+}
+
+.quote {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 900;
+    padding-right: 30px;
+}
+
+.form {
+    margin: 80px 140px;
+    display: flex;
+    background-color: #008cff;
+    padding: 40px 80px;
+    border-radius: 7px;
+   
+}
+
+.elements {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 4px;
+    flex: 1;
+
+}
+
+.button2 {
+    font-weight:bolder;
+    font-size: 17px;
+    border: 2px solid white;
+    border-radius: 10px ;
+}
+
+.footer {
+     flex-basis: 100px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color:#263357;
+     color: white;
+     font-size: 20px;
+}
+
+
+img {
+        border-radius: 10px;
+        width: 100%; /* Set the image width to 100% of the parent container's width */
+        height: 100%; /* Set the image height to 100% of the parent container's height */
+      
 }

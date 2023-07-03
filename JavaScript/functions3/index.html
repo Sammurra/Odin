@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Functions: Task 3</title>
+    <style>
+      p {
+        color: purple;
+        margin: 0.5em 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+    </style>
+    
+  </head>
+
+  <body>
+
+    <section class="preview">
+
+
+
+    </section>
+
+  </body>
+  <script>
+   const names = ['Chris', 'Li Kang', 'Anne', 'Francesca', 'Mustafa', 'Tina', 'Bert', 'Jada'];
+    const para = document.createElement('p');
+
+    // Function to generate a random number between the given bounds
+    function random(min, max) {
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    // Function to choose a random name from the provided array
+    function chooseName(namesArray) {
+      const randomIndex = random(0, namesArray.length - 1);
+      return namesArray[randomIndex];
+    }
+
+    // Set the text content of the paragraph to the chosen name
+    para.textContent = chooseName(names);
+
+    const section = document.querySelector('section');
+    section.appendChild(para);
+  </script>
+
+</html>

@@ -6,6 +6,9 @@ const blueHeading = document.createElement('h3');
 const div = document.createElement('div');
 const h1 = document.createElement('h1');
 const meToo = document.createElement('p');
+const btn = document.querySelector('#btn');
+const btn2 = document.querySelector('#btn2');
+const btn3 = document.querySelector('#btn3');
 
 
 content.classList.add('content');
@@ -33,3 +36,15 @@ div.appendChild(meToo);
 
 
 
+
+btn.onclick = () => alert("Hello World");
+
+
+btn2.addEventListener('click', () => {
+  alert("Hello World");
+});
+
+
+btn3.addEventListener('click', function (e) {
+    e.target.style.background = 'blue';
+  });
